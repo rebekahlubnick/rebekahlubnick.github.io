@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<title>Photography</title>
+			<style> 
+			body{
+				background-color: lightgrey;}
+				h2 {
+				 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  					 	font-weight: 100;
+					color: lightblue;
+					font-size:xx-large;
+					background-color: #447A6B;
+					margin-left:650px;
+				}
+				h3{
+				 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  					font-weight: 100;
+					font-size: 20px;
+					color:#503D3F;
+					line-height:250%;
+				}
+				a:link{
+      				color:#503D3F;
+      				text-decoration: none;
+      				white-space: nowrap;
+      				font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  					font-weight: 100;
+   				}
+    			a:visited{
+      				color:#503D3F;
+      				text-decoration: none;
+      				white-space: nowrap;
+    			}
+    			a:hover{
+      				color:darkcyan;
+      				text-decoration: none;
+      				font-size: 21px;
+      				white-space: nowrap;
+    				}
+			.opacity {-webkit-filter: opacity(60%); filter: opacity(60%);}
+			</style>
+	</head>
+	<body>
+	<!--BUTTON CODE-->
+	
+	<h4 class= "button" id=  right <DIV style="position: absolute; bottom:0px; left:115px"> <a href="https://rlubnick.github.io/new_website/Website2%20copy.html"> Home</a></h4>
+      
+     <h4 class= "button" id=  right <DIV style="position: absolute; bottom:0px; left:200px"> <a href="https://rlubnick.github.io/new_website/theatre_music.html"> Theatre and Music</a></h4>
+     
+     <h4 class= "button" id=  right <DIV style="position: absolute; bottom:0px; left:380px"> <a href="https://rlubnick.github.io/new_website/travel.html"> Travel</a></h4>
+
+     <h4 class= "button" id=  right <DIV style="position: absolute; bottom:0px; left:460px"> <a href="https://rlubnick.github.io/new_website/service.html"> Community Service</a></h4>
+
+     <h4 class= "button" id=  right <DIV style="position: absolute; bottom:0px; left:655px"><a href="https://rlubnick.github.io/new_website/about_me.html"> About Rebekah</a></h4>
+
+     <h4 class= "button" id=  right <DIV style="position: absolute; bottom:0px; left:820px"> <a href="https://rlubnick.github.io/new_website/coding.html"> Coding</a></h4>
+
+     <h4 class= "button" id=  right <DIV style="position: absolute; bottom: 0px; left:935px"> <a href="https://rlubnick.github.io/new_website/contact.html"> Contact Information </a></h4>
+
+      
+      
+      <p id="aboutMe"> </p> 
+      <p id="theatreMusic"></p>
+      <p id="travel"></p> 
+      <p id="service"></p> 
+      <p id="photos"></p> 
+      <p id="gwc"></p>
+      <p id="contact"></p> 
+
+		
+<script>
+			function aboutMe() {
+    		document.getElementById("aboutMe");
+			}
+			function theatreMusic() {
+    		document.getElementById("theatreMusic");
+			}
+			function travel() {
+    		document.getElementById("travel");
+			}
+			function service() {
+    		document.getElementById("service");
+			}
+			function photos() {
+    		document.getElementById("photos");
+			}
+			function contact() {
+    		document.getElementById("contact");
+			}
+			function gwc() {
+    		document.getElementById("gwc");
+			}
+
+			</script>
+
+		<div id="photoBanner" class="banner2"> 	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 800px;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Photography</h2>
+<h3> Click on the images below to scroll through the gallery </h3> 
+
+<div class="row">
+  <div class="column">
+    <img src="photo3.JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="photo28.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="dragon_eye.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="photo39.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+   
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 12 </div>
+      <img src="photo3.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div>
+      <img src="photo28.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 12 </div>
+      <img src="dragon_eye.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 12 </div>
+      <img src="photo39.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 12</div>
+      <img src="photo1.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 12</div>
+      <img src="photo2.JPG" style="width:100%">
+    </div>
+     <div class="mySlides">
+      <div class="numbertext">7 / 12</div>
+      <img src="photo43.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 12</div>
+      <img src="photo6.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 12</div>
+      <img src="photo8.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 12</div>
+      <img src="photo17.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11 / 12</div>
+      <img src="photo37.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">12 / 12</div>
+      <img src="photo21.JPG" style="width:100%">
+    </div>
+
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="photo3.JPG" style="width:50%" onclick="currentSlide(1)" alt="Aoraki/ Mount Cook National Park, New Zealand">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="photo28.JPG" style="width:50%" onclick="currentSlide(2)" alt="Wanaka, New Zealand">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="dragon_eye.jpg" style="width:50%" onclick="currentSlide(3)" alt="Doi Suthep, Chiang Mai, Thailand">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="photo39.JPG" style="width:50%" onclick="currentSlide(4)" alt="Kuet Chang, Thailand">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="photo1.JPG" style="width:50%" onclick="currentSlide(4)" alt="Aoraki/ Mount Cook National Park, New Zealand">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="photo2.JPG" style="width:50%" onclick="currentSlide(4)" alt="Oamaru, New Zealand">
+       <div class="column">
+      <img class="demo cursor" src="photo43.JPG" style="width:50%" onclick="currentSlide(4)" alt="Wat Chiang Mun, Thailand">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="photo6.JPG" style="width:50%" onclick="currentSlide(4)" alt="Centerport, Long Island">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="photo8.JPG" style="width:50%" onclick="currentSlide(4)" alt="Wanaka, New Zealand">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="photo17.JPG" style="width:50%" onclick="currentSlide(4)" alt="Moeraki, New Zealand">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="photo37.JPG" style="width:50%" onclick="currentSlide(4)" alt="Amphoe Mae Taeng, Thailand">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="photo21.JPG" style="width:50%" onclick="currentSlide(4)" alt="Aoraki/ Mount Cook National Park, New Zealand">
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+} 
+</script>
+		
+
+	</body>
+</html>
